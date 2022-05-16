@@ -1,0 +1,158 @@
+/* *GLOBAL */
+*{
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+/* *HEADER */
+.clear{
+    clear: both;
+}
+.header__logoimg{
+    float: left;
+}
+.header__slogan{
+    float: right;
+}
+
+.header__navbar ul{
+    list-style: none;
+    border-top: 1px solid #656663;
+    border-bottom: 1px solid #656663 ;
+    padding: 15px 0;  
+    text-align: center;   ;
+}
+.header__navbar li{
+    display: inline;
+}
+.header__navbar ul a {
+    text-decoration: none;
+    color:#656663;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.13vw;
+
+    padding: 0 0.2em ;
+    
+}
+.header__navbar ul a:hover {
+    border-bottom: 2px solid red;
+}
+.header__navbar ul{
+
+}
+.header__navbar ul .active{
+    border-bottom: 2px solid red;
+
+}
+.header__logo .header__slogan{
+    margin-right: 50px;
+}
+/* *CAROUSEL */
+.carousel{
+    background-image: url(../imageVUS/slider_1.png);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    margin-top: 20px;
+}
+.line img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.intro p{
+    padding:0 15px;
+    color: #636363;
+    line-height:20px;
+    text-align: center;
+
+}
+/* *PROGRAM */
+.program__content {
+    float:left;
+    width:25%;
+    padding:0 15px;
+}
+.program__content img {
+    width: 100%;
+    
+}
+h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: red;
+    margin-bottom: 10px;
+   
+}
+.program__content p{
+    font-size: 14px;
+    color: #636363;
+    line-height:20px;
+    margin:0 5px 5px
+
+}
+/* *FOOTER */
+.footer{
+    background-color: red;   
+    height: 100px;
+    padding: 10px 10px;
+    
+}
+.img__footer {
+    float: left;
+}
+.footer p {
+    float: right;
+    width:50%;
+    word-spacing: 2px;
+    text-align: justify;
+    color: white;
+}
+/* *NEW* */
+.news__left, .news__right {
+
+    float: left;
+    width: 50%;
+    padding:0px 5px;
+    margin-bottom:10px
+}
+.news__text img {
+    width: 100%;
+    display: block;
+
+}
+.news__text{
+    position: relative;
+
+}
+.news__text p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.842);
+    bottom: 10px;
+    width: 100%;
+    padding: 15px 10px;
+    color: white;
+}
+.news__left .news__text{
+    font-size:24px;
+} 
+.news__small-item{
+    float: left;
+    width: 50%;
+    padding: 0 10px 10px
+}
+.news__text hr{
+    margin:0px;
+    background-color: red;
+    margin-top: 10px;
+    height:5px
+}
